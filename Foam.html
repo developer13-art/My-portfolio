@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>form</title>
+  <style>
+  
+  body {
+    background-image: url('74.jpg');
+    background-repeat: no-repeat;
+    height: 100%;
+    color: greenyellow;
+    font-weight: 800;
+  }
+  
+  fieldset {
+    height: 100%;
+    border: 5px solid red;
+    border-radius: 50px;
+    padding-top: 3rem;
+  }
+  
+    form {
+      padding-top: 5rem;
+      padding-bottom: 2rem;
+    }
+    
+    input {
+      border: none;
+      border-bottom: 2px solid gray;
+      text-align: center;
+      background: transparent;
+      color: red;
+      border-spacing: 20px;
+    }
+    
+    textarea {
+      border: 5px solid indianred;
+    }
+    
+    button {
+      padding-top: .6rem;
+      padding-bottom: .6rem;
+      padding-left: 5rem;
+      padding-right: 5rem;
+      border: 5px double black;
+      border-radius: 10px;
+      color: green;
+      background: black;
+      font-weight: 800;
+    }
+  </style>
+</head>
+<body>
+  <fieldset>
+  <center>
+  <form action="https://iliyasu.vercel.app/" method="get" accept-charset="utf-8">
+    <input type="text" name="name" id="name" placeholder="first name" required><br><br>
+    <input type="text" name="" id="" placeholder="last name" required><br><br>
+    <input type="number" name="" id="" placeholder="phone number" required><br><br>
+    <input type="email" name="" id="" placeholder="email" required><br><br>
+    Gender: <br><br>
+    <input type="radio" name="male" id="male" required>male 
+    <input type="radio" name="male" id="male" required>female <br><br>
+    <textarea name="" id="" cols="30" rows="5" placeholder="how can I help you..." required></textarea>
+    <br><br>
+    <input type="checkbox" name="name" id="name" style="float: left;" required> Do you agree with the terms and conditions of my website
+    <br><br>
+    <button type="submit">submit</button>
+  </form>
+  </center>
+  </fieldset>
+</body>
+</html>
