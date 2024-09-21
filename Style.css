@@ -65,7 +65,6 @@ a:hover {
 .img:hover {
   border-radius: 20px;
   border: 5px double red;
-  background: transparent;
 }
 
 button {
