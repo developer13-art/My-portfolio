@@ -59,6 +59,13 @@ a:hover {
 .img {
   float: right;
   border-radius: 150px;
+  transition: 2s ease-in-out;
+}
+
+.img:hover {
+  border-radius: 20px;
+  border: 5px double red;
+  background: transparent;
 }
 
 button {
