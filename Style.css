@@ -28,9 +28,41 @@
   cursor: pointer;
 }
 
-.info {
-  
-} 
+ .info {
+      background-image: url('38.png');
+      background-size: cover;
+      height: 250px;
+      width: 350px;
+      position: relative;
+     animation-name: change;
+    animation-duration: 25s;
+   animation-iteration-count: 5;
+    }
+    
+    @keyframes change {
+      0% {
+        background-image: url('38.png');
+        border-radius: 0 0 0 0;
+        width: 0;
+        height: 2;
+      }
+      
+      25% {
+        background-image: url('18.jpg');
+      }
+      
+      50% {
+      background-image: url('38.png');
+      }
+      
+      75% {
+          background-image: url('ima.jpg');
+      }
+      
+      100% {
+           background-image: url('75.jpg');
+      }
+    }
 
 img {
   border: 5px solid black;
