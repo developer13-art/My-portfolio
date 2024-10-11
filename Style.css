@@ -31,12 +31,12 @@
  .info {
       background-image: url('38.png');
       background-size: cover;
-      height: 250px;
-      width: 350px;
+      height: 150px;
+      width: 250px;
       position: relative;
      animation-name: change;
     animation-duration: 25s;
-   animation-iteration-count: 5;
+   animation-iteration-count: 1;
     }
     
     @keyframes change {
