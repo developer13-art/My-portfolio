@@ -13,23 +13,9 @@
      animation-name: change;
     animation-duration: 25s;
    animation-iteration-count: 1;
-
-.navbar {
-  width: 86%;
-  display: flex;
-  margin: auto;
-  padding: 2px 0px;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.navbar .logo {
-  width: 50px;
-  cursor: pointer;
-}
-    
-    @keyframes change {
-      0% {
+} 
+@keyframes change {
+  0% {
         background-image: url('38.png');
         border-radius: 0 0 0 0;
         width: 0;
@@ -52,6 +38,20 @@
            background-image: url('75.jpg');
       }
     }
+
+.navbar {
+  width: 86%;
+  display: flex;
+  margin: auto;
+  padding: 2px 0px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .logo {
+  width: 50px;
+  cursor: pointer;
+}   
 
 img {
   border: 5px solid black;
