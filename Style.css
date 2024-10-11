@@ -28,7 +28,7 @@
   cursor: pointer;
 }
 
- .info {
+/* .info {
       background-image: url('38.png');
       background-size: cover;
       height: 150px;
@@ -62,7 +62,7 @@
       100% {
            background-image: url('75.jpg');
       }
-    }
+    }*/
 
 img {
   border: 5px solid black;
